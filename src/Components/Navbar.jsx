@@ -81,7 +81,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-almond shadow-md fixed top-0 w-full z-50 h-24 px-3 flex items-center relative">
+    <nav className="bg-cream shadow-md fixed top-0 w-full z-50 h-24 px-3 flex items-center relative">
       
       {/* Logo - LEFT */}
       <div className="flex items-center ml-8">
@@ -109,7 +109,7 @@ function Navbar() {
         <li className="text-chocolate font-medium text-xl hover:bg-lbrown transition p-3 rounded-xl">
           <Link to="/">Blog</Link>
         </li>
-        <li className="text-chocolate font-medium text-xl hover:bg-lbrown transition p-3 rounded-xl">
+        <li className="text-cream font-medium text-xl bg-dbrown transition p-3 rounded-xl">
           <Link to="/contact">Contact</Link>
         </li>
       </ul>

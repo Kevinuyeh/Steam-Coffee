@@ -19,8 +19,8 @@ function Milkshakes() {
   }, [])
 
   return (
-    <div className="w-full bg-almond py-10 overflow-hidden">
-      <h1 className="text-3xl md:text-5xl text-center text-gray-800 font-medium">
+    <div className="w-full bg-cream py-10 overflow-hidden">
+      <h1 className="text-3xl md:text-5xl text-center text-dbrown font-medium">
         Top Milk Shakes
       </h1>
 
