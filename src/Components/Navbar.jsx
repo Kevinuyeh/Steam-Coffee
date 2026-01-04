@@ -107,7 +107,7 @@ function Navbar() {
           <Link to="/about">About</Link>
         </li>
         <li className="text-chocolate font-medium text-xl hover:bg-lbrown transition p-3 rounded-xl">
-          <Link to="/">Blog</Link>
+          <Link to="/">Menu</Link>
         </li>
         <li className="text-cream font-medium text-xl bg-dbrown transition p-3 rounded-xl">
           <Link to="/contact">Contact</Link>
@@ -132,7 +132,7 @@ function Navbar() {
           <Link to="/about" onClick={() => setNav(false)}>About</Link>
         </li>
         <li className="text-gray-800 font-medium text-xl py-4">
-          <Link to="/" onClick={() => setNav(false)}>Blog</Link>
+          <Link to="/" onClick={() => setNav(false)}>Menu</Link>
         </li>
         <li className="text-gray-800 font-medium text-xl py-4">
           <Link to="/contact" onClick={() => setNav(false)}>Contact</Link>
