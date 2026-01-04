@@ -59,7 +59,9 @@ function Blogs() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-         setVisible(entry.isIntersecting)
+         if (entry.isIntersecting) {
+  setVisible(true)
+}
       },
       {
         threshold: 0.5, // 👈 triggers when 50% is visible
