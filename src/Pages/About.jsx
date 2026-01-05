@@ -107,20 +107,20 @@ function About() {
         <h1 className='text-center text-3xl md:text-5xl text-brown mx-auto mt-10 '>
             <span className='text-cream'>Why</span> <span className='text-brown'>Choose Us</span>
         </h1>
-        <div className='max-w-[1240px] grid md:grid-cols-3 gap-20 mx-auto'>
+        <div className='max-w-[1240px] grid md:grid-cols-3 gap-20 mx-auto p-4'>
                 <div className='flex flex-col items-center text-center mx-auto mt-10'>
                     <img src={img1} alt='/img' className='w-[70px]'/>
-                    <h1 className='text-cream text-xl font-bold tracking-wider mt-10'>Sustainably sourced</h1>
+                    <h1 className='text-cream text-xl font-bold tracking-wider mt-5 md:mt-10'>Sustainably sourced</h1>
                     <p className='text-cream tracking-wide max-w-xl mt-3'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab laudantium reprehenderit, vel dignissimos accusantium aliquam?</p>
                 </div>
 
-                 <div className='flex flex-col items-center text-center mx-auto mt-10'>
+                 <div className='flex flex-col items-center text-center mx-auto mt-5 md:mt-10'>
                     <img src={img2} alt='/img' className='w-[70px]'/>
                     <h1 className='text-cream text-xl font-bold tracking-wider mt-10'>Sustainably sourced</h1>
                     <p className='text-cream tracking-wide max-w-xl mt-3'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab laudantium reprehenderit, vel dignissimos accusantium aliquam?</p>
                 </div>
 
-                 <div className='flex flex-col items-center text-center mx-auto mt-10'>
+                 <div className='flex flex-col items-center text-center mx-auto mt-5 md:mt-10'>
                     <img src={img3} alt='/img' className='w-[70px]'/>
                     <h1 className='text-cream text-xl font-bold tracking-wider mt-10'>Sustainably sourced</h1>
                     <p className='text-cream tracking-wide max-w-xl mt-3'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab laudantium reprehenderit, vel dignissimos accusantium aliquam?</p>
