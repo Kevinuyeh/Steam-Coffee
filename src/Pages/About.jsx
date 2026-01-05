@@ -97,8 +97,8 @@ function About() {
         <h1 className='text-center text-3xl md:text-5xl text-brown mx-auto mt-10'>
             <span className='text-dbrown'>About Us</span> Our Story
         </h1>
-        <p className='font-bold tracking-wider text-dbrown mt-10 p-4 max-w-7xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi unde neque quasi, rerum in eveniet tempore libero dicta beatae sint et, eaque corporis vitae, temporibus ratione aliquam? Consequatur quia voluptates ut consequuntur eligendi. Ab id eum voluptas explicabo placeat deleniti natus soluta modi ea incidunt. Quo cumque ad, incidunt magni illo expedita, quod perferendis similique modi necessitatibus consectetur vel voluptates.</p>
-        <p className='font-bold tracking-wider text-dbrown p-4 max-w-7xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odio fugit veritatis perferendis impedit debitis minima quia ab nulla, nemo architecto, voluptate vel quis fugiat? Repellat qui, sint amet dolorum incidunt illum tenetur, ipsum quisquam facere accusamus expedita exercitationem provident.</p>
+        <p className=' tracking-wider text-dbrown mt-10 p-4 max-w-7xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi unde neque quasi, rerum in eveniet tempore libero dicta beatae sint et, eaque corporis vitae, temporibus ratione aliquam? Consequatur quia voluptates ut consequuntur eligendi. Ab id eum voluptas explicabo placeat deleniti natus soluta modi ea incidunt. Quo cumque ad, incidunt magni illo expedita, quod perferendis similique modi necessitatibus consectetur vel voluptates.</p>
+        <p className=' tracking-wider text-dbrown p-4 max-w-7xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odio fugit veritatis perferendis impedit debitis minima quia ab nulla, nemo architecto, voluptate vel quis fugiat? Repellat qui, sint amet dolorum incidunt illum tenetur, ipsum quisquam facere accusamus expedita exercitationem provident.</p>
 
         <p className='font-bold tracking-wider text-brown text-center text-2xl'>Steam Coffee Team....</p>
       </div>

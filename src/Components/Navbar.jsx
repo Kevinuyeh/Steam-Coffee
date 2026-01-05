@@ -1,73 +1,3 @@
-// import React, { useState } from "react";
-// import { Link } from "react-router-dom";
-// import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-// import imglogo from "../assets/logobg.png";
-
-// function Navbar() {
-//   const [nav, setNav] = useState(false);
-
-//   const handleNav = () => {
-//     setNav(!nav);
-//   };
-
-//   return (
-//     <div>
-//       <nav className="bg-almond shadow-md flex items-center justify-between fixed top-0 w-full z-50 h-24 p-3">
-//         {/* Logo and title aligned to the left */}
-//         <div className="flex items-center mx-8">
-//           <Link to="/" className="flex items-center">
-//             <img src={imglogo} alt="/img" className="h-[50px]" />
-//             <span className="text-gray-800 font-medium font-galada text-lg md:text-xl">
-//               Steam Coffee
-//             </span>
-//           </Link>
-//         </div>
-
-//         {/* Hamburger Icon for mobile */}
-//         <span onClick={handleNav} className="md:hidden block cursor-pointer">
-//           {nav ? (
-//             <AiOutlineClose size={25} color="white" />
-//           ) : (
-//             <AiOutlineMenu size={25} color="white" />
-//           )}
-//         </span>
-
-//         {/* Navigation items */}
-//         <ul
-//           className={`${
-//             nav ? "left-0 bg-lbrown" : "-left-full"
-//           } md:static absolute md:mx-8 top-0 md:top-12 md:flex md:items-center w-[75%] md:w-auto h-screen md:h-auto p-5 md:p-0 transition-all duration-500 ease-in-out md:ml-auto`}
-//         >
-//           <li className="text-gray-800 font-medium text-xl p-2">
-//             <Link to="/" onClick={() => setNav(false)}>
-//               Home
-//             </Link>
-//           </li>
-//           <li className="text-gray-800 font-medium text-xl p-2">
-//             <Link to="/about" onClick={() => setNav(false)}>
-//               About
-//             </Link>
-//           </li>
-//           <li className="text-gray-800 font-medium text-xl p-2">
-//             <Link to="/" onClick={() => setNav(false)}>
-//               Blog
-//             </Link>
-//           </li>
-//           <li className="text-gray-800 font-medium text-xl p-2">
-//             <Link to="/contact" onClick={() => setNav(false)}>
-//               Contact
-//             </Link>
-//           </li>
-//         </ul>
-//       </nav>
-//     </div>
-//   );
-// }
-
-// export default Navbar;
-
-
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
@@ -119,25 +49,45 @@ function Navbar() {
         {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
 
-      {/* MOBILE MENU */}
-      <ul
-        className={`${
-          nav ? "left-0" : "-left-full"
-        } fixed top-0 h-screen w-[75%] bg-lbrown p-6 transition-all duration-500 md:hidden`}
-      >
-        <li className="text-gray-800 font-medium text-xl py-4">
-          <Link to="/" onClick={() => setNav(false)}>Home</Link>
-        </li>
-        <li className="text-gray-800 font-medium text-xl py-4">
-          <Link to="/about" onClick={() => setNav(false)}>About</Link>
-        </li>
-        <li className="text-gray-800 font-medium text-xl py-4">
-          <Link to="/" onClick={() => setNav(false)}>Menu</Link>
-        </li>
-        <li className="text-gray-800 font-medium text-xl py-4">
-          <Link to="/contact" onClick={() => setNav(false)}>Contact</Link>
-        </li>
-      </ul>
+      
+
+    {/* MOBILE MENU */}
+<ul
+  className={`
+    ${nav ? "left-0" : "-left-full"}
+    fixed top-0 h-screen w-[75%]
+    bg-cream p-6
+    transition-all duration-500
+    md:hidden
+    flex flex-col
+  `}
+>
+  {/* Mobile Logo */}
+  <div className="flex items-center gap-2 mb-6 pb-4 border-b border-brown">
+    <img src={imglogo} alt="logo" className="h-[45px]" />
+    <span className="text-dbrown font-galada text-xl">
+      Steam Coffee
+    </span>
+  </div>
+
+  {/* Nav Items */}
+  <li className="border-b border-brown py-4 text-dbrown text-lg font-medium">
+    <Link to="/" onClick={() => setNav(false)}>Home</Link>
+  </li>
+
+  <li className="border-b border-brown py-4 text-dbrown text-lg font-medium">
+    <Link to="/about" onClick={() => setNav(false)}>About</Link>
+  </li>
+
+  <li className="border-b border-brown py-4 text-dbrown text-lg font-medium">
+    <Link to="/" onClick={() => setNav(false)}>Menu</Link>
+  </li>
+
+  <li className="py-4 text-dbrown text-lg font-medium">
+    <Link to="/contact" onClick={() => setNav(false)}>Contact</Link>
+  </li>
+</ul>
+
     </nav>
   );
 }
