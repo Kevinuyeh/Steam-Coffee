@@ -143,7 +143,7 @@ function About() {
   <h1
     className={`
       text-center text-3xl md:text-5xl text-brown mx-auto mt-10
-      transition-all duration-[3000ms] ease-out
+      transition-all duration-[2000ms] ease-out
       ${whyVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
     `}
   >
@@ -155,7 +155,7 @@ function About() {
     <div
       className={`
         flex flex-col items-center text-center mx-auto mt-10
-        transition-all duration-[3000ms] ease-out delay-100
+        transition-all duration-[2000ms] ease-out delay-100
         ${whyVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
       `}
     >
@@ -171,7 +171,7 @@ function About() {
     <div
       className={`
         flex flex-col items-center text-center mx-auto mt-10
-        transition-all duration-[3000ms] ease-out delay-250
+        transition-all duration-[2000ms] ease-out delay-250
         ${whyVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
       `}
     >

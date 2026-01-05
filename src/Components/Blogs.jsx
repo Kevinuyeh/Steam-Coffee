@@ -15,7 +15,7 @@ function Blogs() {
 }
       },
       {
-        threshold: 0.5, // 👈 triggers when 50% is visible
+        threshold: 0.3, // 👈 triggers when 50% is visible
       }
     )
 
