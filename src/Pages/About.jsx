@@ -93,40 +93,116 @@ function About() {
       </div>
       
 
-      <div ref={aboutRef} className={`bg-cream w-full flex flex-col items-center mx-auto pb-10 transition-all duration-[3000ms] ease-out ${aboutVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
-        <h1 className='text-center text-3xl md:text-5xl text-brown mx-auto mt-10'>
-            <span className='text-dbrown'>About Us</span> Our Story
-        </h1>
-        <p className=' tracking-wider text-dbrown mt-10 p-4 max-w-7xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi unde neque quasi, rerum in eveniet tempore libero dicta beatae sint et, eaque corporis vitae, temporibus ratione aliquam? Consequatur quia voluptates ut consequuntur eligendi. Ab id eum voluptas explicabo placeat deleniti natus soluta modi ea incidunt. Quo cumque ad, incidunt magni illo expedita, quod perferendis similique modi necessitatibus consectetur vel voluptates.</p>
-        <p className=' tracking-wider text-dbrown p-4 max-w-7xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odio fugit veritatis perferendis impedit debitis minima quia ab nulla, nemo architecto, voluptate vel quis fugiat? Repellat qui, sint amet dolorum incidunt illum tenetur, ipsum quisquam facere accusamus expedita exercitationem provident.</p>
+      <div ref={aboutRef} className="bg-cream w-full flex flex-col items-center mx-auto pb-10">
+  
+  <h1
+    className={`
+      text-center text-3xl md:text-5xl text-brown mx-auto mt-10
+      transition-all duration-[3000ms] ease-out
+      ${aboutVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
+    `}
+  >
+    <span className='text-dbrown'>About Us</span> Our Story
+  </h1>
 
-        <p className='font-bold tracking-wider text-brown text-center text-2xl'>Steam Coffee Team....</p>
-      </div>
+  <p
+    className={`
+      tracking-wider text-dbrown mt-10 p-4 max-w-7xl
+      transition-all duration-[3000ms] ease-out delay-150
+      ${aboutVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
+    `}
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, necessitatibus delectus provident eveniet aut explicabo laboriosam consequatur fugit officiis! Vel totam laborum temporibus vitae libero. Dolorum eaque cumque ab quaerat consequuntur laboriosam, libero nihil a nesciunt eius magni blanditiis explicabo.
+  </p>
 
-      <div ref={whyRef} className={`bg-dbrown w-full flex flex-col items-center mx-auto pb-10 transition-all duration-[3000ms] ease-out ${whyVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
-        <h1 className='text-center text-3xl md:text-5xl text-brown mx-auto mt-10 '>
-            <span className='text-cream'>Why</span> <span className='text-brown'>Choose Us</span>
-        </h1>
-        <div className='max-w-[1240px] grid md:grid-cols-3 gap-20 mx-auto p-4'>
-                <div className='flex flex-col items-center text-center mx-auto mt-10'>
-                    <img src={img1} alt='/img' className='w-[70px]'/>
-                    <h1 className='text-cream text-xl font-bold tracking-wider mt-5 md:mt-10'>Sustainably sourced</h1>
-                    <p className='text-cream tracking-wide max-w-xl mt-3'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab laudantium reprehenderit, vel dignissimos accusantium aliquam?</p>
-                </div>
+  <p
+    className={`
+      tracking-wider text-dbrown p-4 max-w-7xl
+      transition-all duration-[3000ms] ease-out delay-300
+      ${aboutVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
+    `}
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora, maiores, molestiae sapiente mollitia ipsam expedita rem reiciendis dolorem laudantium dolore natus beatae error obcaecati nostrum quaerat debitis cumque odit id facere soluta repudiandae. Hic iste dignissimos illum adipisci dolorem.
+  </p>
 
-                 <div className='flex flex-col items-center text-center mx-auto mt-5 md:mt-10'>
-                    <img src={img2} alt='/img' className='w-[70px]'/>
-                    <h1 className='text-cream text-xl font-bold tracking-wider mt-10'>Sustainably sourced</h1>
-                    <p className='text-cream tracking-wide max-w-xl mt-3'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab laudantium reprehenderit, vel dignissimos accusantium aliquam?</p>
-                </div>
+  <p
+    className={`
+      font-bold tracking-wider text-brown text-center text-2xl
+      transition-all duration-[3000ms] ease-out delay-500
+      ${aboutVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
+    `}
+  >
+    Steam Coffee Team....
+  </p>
 
-                 <div className='flex flex-col items-center text-center mx-auto mt-5 md:mt-10'>
-                    <img src={img3} alt='/img' className='w-[70px]'/>
-                    <h1 className='text-cream text-xl font-bold tracking-wider mt-10'>Sustainably sourced</h1>
-                    <p className='text-cream tracking-wide max-w-xl mt-3'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab laudantium reprehenderit, vel dignissimos accusantium aliquam?</p>
-                </div>
-        </div>
-      </div>
+</div>
+
+
+    <div ref={whyRef} className="bg-dbrown w-full flex flex-col items-center mx-auto pb-10">
+
+  <h1
+    className={`
+      text-center text-3xl md:text-5xl text-brown mx-auto mt-10
+      transition-all duration-[3000ms] ease-out
+      ${whyVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
+    `}
+  >
+    <span className='text-cream'>Why</span> <span className='text-brown'>Choose Us</span>
+  </h1>
+
+  <div className='max-w-[1240px] grid md:grid-cols-3 gap-20 mx-auto p-4'>
+
+    <div
+      className={`
+        flex flex-col items-center text-center mx-auto mt-10
+        transition-all duration-[3000ms] ease-out delay-100
+        ${whyVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
+      `}
+    >
+      <img src={img1} alt='/img' className='w-[70px]' />
+      <h1 className='text-cream text-xl font-bold tracking-wider mt-10'>
+        Sustainably sourced
+      </h1>
+      <p className='text-cream tracking-wide max-w-xl mt-3'>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+
+    <div
+      className={`
+        flex flex-col items-center text-center mx-auto mt-10
+        transition-all duration-[3000ms] ease-out delay-250
+        ${whyVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
+      `}
+    >
+      <img src={img2} alt='/img' className='w-[70px]' />
+      <h1 className='text-cream text-xl font-bold tracking-wider mt-10'>
+        Expert Craftsmanship
+      </h1>
+      <p className='text-cream tracking-wide max-w-xl mt-3'>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+
+    <div
+      className={`
+        flex flex-col items-center text-center mx-auto mt-10
+        transition-all duration-[3000ms] ease-out delay-400
+        ${whyVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}
+      `}
+    >
+      <img src={img3} alt='/img' className='w-[70px]' />
+      <h1 className='text-cream text-xl font-bold tracking-wider mt-10'>
+        Premium Quality
+      </h1>
+      <p className='text-cream tracking-wide max-w-xl mt-3'>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+
+  </div>
+</div>
+
       <Socials />
       <Blogs />
       <Footer />
