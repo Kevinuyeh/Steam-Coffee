@@ -136,7 +136,7 @@ function Footer() {
               <h6 className="mb-3 text-slate-300 font-semibold">Keep in Touch</h6>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center gap-2">
-                  <FaPhone /> +(234)123-456-7890
+                  <FaPhone /> 1234-567-8900
                 </li>
                 <li className="flex items-center gap-2">
                   <FaEnvelope /> steamcoffee@gmail.com
