@@ -46,7 +46,7 @@ function About() {
         <Navbar />
         <img
                 src={Back}
-                className="w-full md:h-[600px] object-cover brightness-50"
+                className="w-full h-[600px] object-cover brightness-50"
                 alt="Background"
               />
 
